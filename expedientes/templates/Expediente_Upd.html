@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% block title %} Expedientes {% endblock %}
+{% block content %}
+    <form method="POST" > {% csrf_token %}
+        {{ form.as_p }}
+        <link rel="stylesheet" href="http://code.jquery.com/ui/1.11.0/themes/smoothness/jquery-ui.css">
+            <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+            <script src="http://code.jquery.com/ui/1.11.0/jquery-ui.js"></script>
+            <script>
+                $(document).ready(function() {
+                    $('.datepicker').datepicker();
+                });
+            </script>
+        <input type="submit" value="Save" />
+    </form>
+    <a class="btn-default btn margin-bottom margin-top" href="{% url 'expedientes' %}">Volver</a>
+{% endblock %}

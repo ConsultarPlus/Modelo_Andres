@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+{% block title %} Expedientes {% endblock %}
+{% block content %}
+    <form action="."  method="POST"> {% csrf_token %}
+        <h1>¿Desea realmente eliminar el expediente?</h1>
+        <p> <input type="submit" value="Si" /> <a href="../">No</a> </p>
+    </form>
+    <a class="btn-default btn margin-bottom margin-top" href="{% url 'expedientes' %}">Volver</a>
+{% endblock %}

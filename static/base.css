@@ -1,0 +1,80 @@
+#header {
+  background-color: #204d74;
+}
+#header h3 {
+  margin: 0 0 0 20px;
+  font-size: 40px;
+  font-family: 'Lobster';
+  color: #fdff2b;
+  height: 80px;
+}
+#header h4 {
+  margin: 0 0 0 20px;
+}
+.margin-bottom {
+  margin-bottom: 5px;
+}
+.margin-right {
+  margin-right: 15px;
+}
+.margin-left {
+  margin-left: 15px;
+}
+.margin-top {
+  margin-top: 5px;
+}
+.float-left {
+  float: left;
+}
+.float-right {
+  float: right;
+}
+ul.errorlist {
+  display: inline-block;
+  list-style: none;
+  padding: 0;
+}
+ul.errorlist li {
+  color: maroon;
+  font-style: italic;
+}
+#content {
+  margin: 10px;
+}
+#menubar {
+  margin: 0;
+  background-color: #204d74;
+  color: white;
+}
+#menubar ul {
+  padding: 0;
+  list-style: none;
+  margin: 0;
+}
+#menubar ul li {
+  display: inline-block;
+  margin: 2px;
+}
+#menubar ul li a {
+  padding: 2px 5px 2px 5px;
+  color: white;
+  text-decoration: none;
+}
+#menubar ul li a:hover,
+#menubar ul li a:active,
+#menubar ul li a:focus {
+  color: white;
+  text-decoration: none;
+  background-color: #245a86;
+}
+.formfield label {
+  min-width: 150px;
+}
+
+#container {
+  background-color: #1e4286;
+  height: 40px;
+}
+
+
+

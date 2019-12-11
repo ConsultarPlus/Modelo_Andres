@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+{% block title %} Expediente {% endblock %}
+{% block content %}
+    
+    <h1>{{ form.id }}</h1>
+    <p>{{ form.observacion }}</p>
+    <p>{{ form.tipo }}</p>
+    <a class="btn-default btn margin-bottom margin-top" href="{% url 'expedientes' %}">Volver</a>
+{% endblock %}

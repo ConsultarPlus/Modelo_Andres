@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% block title %}Home{% endblock %}
+{% block content %}
+    <h4>¡Bienvenido al sistema!</h4>
+    <div class="col-sm-4">
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                <h3 class="panel-title">Expedientes</h3>
+            </div>
+            <div class="panel-body">
+                <a class="btn-block" href="{% url 'expedientes' %}" >Buscar</a>
+                <a class="btn-block" href="{% url 'ExpedienteCreateView' %}" >Nuevo Expediente</a>
+            </div>
+        </div>
+    </div>
+{% endblock %}
