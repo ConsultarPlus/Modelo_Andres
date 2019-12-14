@@ -6,7 +6,7 @@ DateInput = partial(forms.DateInput, {'class': 'datepicker'})
 
 
 class ExpedienteForm(forms.ModelForm):
-    choices =[]
+    choices =['1']
     observacion = forms.CharField(widget=forms.Textarea())
     fecha_inicio = forms.DateField(widget=DateInput())
 
